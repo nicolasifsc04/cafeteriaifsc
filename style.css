@@ -1,3 +1,35 @@
 body{
-    background-color: blueviolet;
+    background-color: gray;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+div{
+    border:1px solid red;
+    /* margem interna */
+    padding: 30px;
+}
+
+.container{
+    max-width:900px;
+    margin:auto; /* centraliza a proria div*/
+    padding:0;
+}
+
+/* chama div com class=topo */
+.topo{
+    background-color: #621708;
+    text-align: center;
+}
+.nav{
+    background-color: #941b0c;
+    display:flex;
+    justify-content:space-around;
+}
+.principal{
+    background-color: #bc3908;
+    text-align: center;
+}
+.rodape{
+    background-color: #f6aa1c;
+    text-align: center;
 }
