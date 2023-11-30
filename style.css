@@ -1,12 +1,17 @@
+:root{
+    scroll-behavior: smooth;
+}
+
 body{
     background-color: gray;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 div{
-    border:1px solid red;
+    border:1px solid rgb(116, 2, 2);
     /* margem interna */
     padding: 30px;
+    color: white
 }
 
 .container{
@@ -17,19 +22,41 @@ div{
 
 /* chama div com class=topo */
 .topo{
-    background-color: #621708;
+    background-color: black;
     text-align: center;
 }
 .nav{
-    background-color: #941b0c;
+    background-color: black;
     display:flex;
     justify-content:space-around;
 }
 .principal{
-    background-color: #bc3908;
+    background-color: black;
     text-align: center;
 }
 .rodape{
-    background-color: #f6aa1c;
+    background-color: black;
     text-align: center;
+}
+.cardapio{
+    background-color: black;
+    text-align: center;
+}
+
+.sobre{
+    background-color: black;
+    text-align: center;
+}
+table{
+    width: 100%;
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+td{
+    padding:20px;
+    border: 1px solid white;
+}
+th{
+    background-color: rgb(180, 59, 59);
+    color: white;
 }

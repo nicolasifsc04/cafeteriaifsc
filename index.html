@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cafeteria do IFSC</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div class="container">
         <div class="topo">
@@ -13,16 +15,72 @@
         </div>
         <div class="nav">
             <a href="index.html">Início</a>
-            <a href="cardapio.html">Cardápio</a>
-            <a href="sobre.html">Sobre Nós</a>
+            <a href="#cardapio">Cardápio</a>
+            <a href="#sobre">Sobre Nós</a>
         </div>
         <div class="principal">
             <h1>Cafeteria IFSC</h1>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic ea inventore exercitationem nostrum iusto sequi harum qui recusandae dolor maiores distinctio voluptatem molestiae, quae facilis, consequuntur impedit perspiciatis unde adipisci.</p>
+            <p>A Cafeteria IFSC é um espaço localizado no Instituto Federal de Santa Catarina (IFSC) que oferece opções
+                de lanches e bebidas para alunos, professores e funcionários da instituição. A cafeteria é um dos locais
+                de convivência do campus e é frequentada por pessoas que desejam fazer uma pausa entre as atividades
+                acadêmicas. Além disso, a cafeteria também é um espaço para encontros informais e para a realização de
+                reuniões de trabalho. O IFSC é uma instituição de ensino que oferece cursos técnicos, de graduação e de
+                pós-graduação em diversas áreas do conhecimento. A instituição possui vários campi distribuídos pelo
+                estado de Santa Catarina e tem como objetivo formar profissionais qualificados e comprometidos com o
+                desenvolvimento social e econômico da região.</p>
         </div>
+
+        <div class="cardapio" id="cardapio">
+            <h1>Cardápio</h1>
+            <!-- 
+                para fazer uma tabel, passos:
+                1- tag/fechar tag <table>
+                2- <tr> para cada linha (table row)
+                3- <td> para cada celula (table data)
+             -->
+            <table>
+                <tr>
+                    <th>Produto</th>
+                    <th>Tamanho</th>
+                    <th>Preço</th>
+                </tr>
+                <tr>
+                    <td rowspan="2">Café Expresso</td>
+                    <td>P - 120ml</td>
+                    <td>R$ 2,00</td>
+                </tr>
+                <tr>
+                    <td>M - 180ml</td>
+                    <td>R$ 3,00</td>
+                </tr>
+                <tr>
+                    <td>Capuccino</td>
+                    <td>180ml</td>
+                    <td>R$ 6,00</td>
+                </tr>
+                <tr>
+                    <td>Pão de Queijo</td>
+                    <td>100g</td>
+                    <td>R$ 3,00</td>
+                </tr>
+                <tr>
+                    <td>Água com gás</td>
+                    <td>500ml</td>
+                    <td>R$ 5,00</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="sobre" id="sobre">
+            <h1>Sobre Nós</h1>
+
+            <iframe width="100%" height="400" src="https://www.youtube.com/embed/_KrVN1ZxZZ8" title="(AO VIVO) SUPER JORNADA COLORADA KTO: CUIABÁ X INTER | CAMPEONATO BRASILEIRO | #155" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+
         <div class="rodape">
             <p>Site experimental CST FSI 2023-11-22</p>
         </div>
     </div>
 </body>
+
 </html>
